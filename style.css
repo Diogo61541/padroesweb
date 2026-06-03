@@ -1,0 +1,160 @@
+.caixa {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.cabecalho {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.cabecalho_marca {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 16px;
+  font-weight: 700;  
+  color: #3902ff;
+}
+
+.cabecalho_titulo {
+  font-size: 32px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.cabecalho_subtitulo {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+} 
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 52px 44px 2fr auto;
+  align-items: center;
+  gap: 16px;
+  background: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
+  padding: 20px;
+}
+.card_borda1 {
+  border: 3px solid #FFD700
+}
+
+.card_borda2 {
+  border: 3px solid #c0c0c0;
+}
+.card_borda3 {
+  border: 3px solid #cd7f32;
+}
+.card_borda4 {
+  border: 1px solid #000000;
+}
+.card_borda5 {
+  border: 1px solid #0f0000;
+}
+
+.card_colocacao1 {
+  color: #ffc61c;
+  font-weight: 800;
+}
+
+.card_colocacao2 {
+  color: #a5a5a5;
+  font-weight: 700;
+}
+
+.card_colocacao3 {
+  color: #cd7f32;
+  font-weight: 700;
+}
+
+.card_colocacao4 {
+  color: #000000;
+  font-weight: 700;
+}
+
+.card_colocacao5 {
+  color: #000000;
+  font-weight: 700;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.avatar1 { 
+  background-color: #ffbf00;
+  color: #fff;
+}
+.avatar2 {
+  background-color: #c0c0c0;
+  color: #fff;
+} 
+.avatar3 {
+  background-color: #cd7f32;
+  color: #fff;
+}
+.avatar4 {
+  background-color: #000000;
+  color: #fff;
+}
+.avatar5 {
+  background-color: #000000;
+  color: #fff;
+}
+
+.info {
+  min-width: 0;
+}
+
+.info_nome {
+  font-family: 'Syne', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info_detalhe {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.pontuacao {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pontuacao_numero {
+  color: #3902ff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pontuacao_label {
+  color: #3902ff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card:hover {
+  transform:scale(1.05);
+}
+
