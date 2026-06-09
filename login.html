@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LifeSync - Login</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Bem vindo de volta + instruções para acesso -->
+
+    <main class="entrar">
+        <h1>Bem-vindo de volta ao LifeSync</h1>
+        <p class="subtitulo">Use seu e-mail e senha para acessar sua conta.</p>
+
+        <!-- Formulário de Entrada -->
+
+        <form id="formulario-email" action="#" method="post">
+            <div class="campo">
+                <label for="email">Usuário</label>
+                <input placeholder="Digite seu e-mail"/>
+            </div>
+            <div class="campo">
+                <label for="password">Senha</label>
+                <input id="password" name="password" type="password" placeholder="Digite sua senha"
+                    autocomplete="current-password" required />
+            </div>
+
+            <!-- Marcador de Lembrar de mim -->
+
+            <div class="linha">
+                <label class="lembrar">
+                    <input id="remember" name="remember" type="checkbox" class="lembrar-checkbox" />
+                    Lembrar de mim
+                </label>
+
+                <!-- Link para recuperar senha -->
+
+                <a href="lostpassword.html">Esqueci minha senha</a>
+            </div>
+
+            <!-- Link para entrar na sua conta -->
+
+            <div class="actions">
+                <button class="açao açao1">Entrar</button>
+            </div>
+        </form>
+        <!-- Link para criar conta -->
+        <p class="novaconta">Não possui uma conta? <a href="createaccount.html" class="novaconta1">Crie sua conta grátis</a></p>
+    </main>
+
+</body>
+
+</html>

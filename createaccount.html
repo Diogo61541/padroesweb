@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LifeSync - Crie sua conta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="entrar" role="main">
+        <h1>Crie sua conta</h1>
+        <p class="subtitulo">Cadastre-se para começar a usar o LifeSync</p>
+
+        <form action="createaccountsucess.html">
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input required placeholder="Digite seu nome completo">
+            </div>
+
+            <div class="campo">
+                <label for="email">E‑mail</label>
+                <input required placeholder="Digite seu e-mail">
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha</label>
+                <input id="senha" name="senha" type="password" required placeholder="Digite sua senha" minlength="8"
+                    autocomplete="new-password">
+            </div>
+
+            <div class="campo">
+                <label for="confirm">Confirme sua senha</label>
+                <input id="confirm" name="confirm" type="password" required placeholder="Repita sua senha" minlength="8"
+                    autocomplete="new-password">
+            </div>
+
+            <label class="lembrar2">
+                <input type="checkbox" name="Termos de uso" required class="lembrar-checkbox"> Aceito os termos de uso
+            </label>
+
+            <div class="actions">
+                <button type="submit" class="açao açao1">Criar conta</button>
+                <a href="login.html" class="novaconta1">Já tenho conta</a>
+            </div>
+        </form>
+
+        <p class="novaconta">Ao criar sua conta você concorda com nossos termos.</p>
+    </main>
+</body>
+
+</html>
